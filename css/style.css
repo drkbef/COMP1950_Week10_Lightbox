@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: bubblebo;
-    src: local(bubblebo), url('fonts/bubblebo.ttf') format('opentype');
+    src: local(bubblebo), url('http://students.thenet.ca/cbuckton/week10/fonts/bubblebo.ttf') format('opentype');
 }
 
 
@@ -38,7 +38,7 @@ nav
 	width: 1000px;
 	height: 50px;
 	margin: 0 auto;
-	background: url('images/navbackground.jpg');
+	background: url('http://students.thenet.ca/cbuckton/week10/images/navbackground.jpg');
 }
 
 nav > ul 
@@ -176,7 +176,7 @@ figcaption > ul > li
 	height: 200px;
 	width: 998px;
 	margin: 0 auto;
-	background: url('images/header.jpg');
+	background: url('http://students.thenet.ca/cbuckton/week10/images/header.jpg');
 	border: solid 1px;
 	font-family: bubblebo;
 	text-align: center;
