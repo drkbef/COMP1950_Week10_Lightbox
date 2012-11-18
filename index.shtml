@@ -1,8 +1,201 @@
-﻿<!DOCTYPE HTML>
-<html>
-<head>
-<title>Redirecting to your site</title>
-<meta http-equiv="REFRESH" content="0;url=http://students.thenet.ca/cbuckton/week6/realestate.shtml?vancouvermansion"></HEAD>
-<BODY>
-</BODY>
-</HTML>
+﻿<!DOCTYPE html>
+	<head>
+		<meta charset="utf-8" > 
+	
+		<title>***IF YOU DON'T BUY THIS PROPERTY, THEN YOU WON'T LIVE HERE***</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" >
+		<link rel="stylesheet" type="text/css" media="screen" href="css/style.css" >
+		<link rel="stylesheet" type="text/css" media="print" href="css/print.css" >
+		<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen">
+		
+		<!-- IE HTML5 Shiv -->
+		<!--[if lt IE 9]>
+		<script src="dist/html5shiv.js"></script>
+		<![endif]-->
+		
+		<script src="http://code.jquery.com/jquery-latest.js"> </script>
+		<script type="text/javascript" src="javascript/jquery.lightbox-0.5.js"></script>
+		
+		<script type="text/javascript">
+			$(function() {
+				$('#gallery a').lightBox();
+			});
+		</script>
+		
+	</head>
+	<body>
+		<div id="container-main">
+			<header id="header-main">
+				<!--#include file="header.inc"-->
+			</header>
+			
+			<nav id="main-nav">
+				<!--#include file="nav.inc"-->
+			</nav>
+			
+			<div id="container-right">
+				<figure id="image-face">
+					<img alt="stanley bananas" src="images/happy.jpg">
+					<figcaption>Is this a face that would lie to you?</figcaption>
+				
+				</figure>
+				<div class="container-agentinfo">
+					<h2>Stanley Bananas</h2>
+						<ul>
+							<li><dl>
+								<dt>Address:</dt>
+									<dd>4 Anyprice Rd, Vancouver</dd>
+							</dl></li>
+
+							<li><dl>
+								<dt>Phone:</dt>
+									<dd>778-555-8877</dd>
+							</dl></li>
+							
+							<li><dl>
+								<dt>Website</dt>
+									<dd><a href="">bubblehomes.ca/bananas</a></dd>
+							</dl></li>
+															
+						</ul>
+				</div>
+				
+			
+			</div>
+
+		
+			<div id="container-left">
+
+				<section>
+					<header id="header-welcome">
+						<h1>Why wait when you can have what you can't have now!!</h1>
+						
+						<p>Welcome to bubblehomes.ca, the most effective and trustworthy way to get your feet into the Vancouver real estate market.  We are not here to dictate what you can or can't afford, we are here to make your most unrealistic dreams come true.  No credit?  No problem!  With our unique <strong>"Now You See It" </strong> financing system, we use trans-existential double reverse collateralization to unlock the true wealth and equity you have accumulated in other lives and existences.</p>
+						
+					</header>
+				</section>
+				
+				<section>
+				
+					<article id="article-listing">
+				
+						<figure>
+	
+							<h1><span id="price">$1,299,999</span> - 1 Everyminute St, Vancouver</h1>
+			
+							
+					
+							<figure id="gallery">
+							
+								<a href="images/vancouvermansion.jpg"><img alt="housepics" src="images/vancouvermansion.jpg" alt="Vancouver mansion"></a>
+								<a href="images/vancouvermansion.jpg"><img alt="housepics" src="images/vancouvermansion_thumb.jpg" alt="Vancouver mansion" width="100" height="71"></a>
+								<a href="images/den.jpg"><img src="images/den_thumb.jpg" alt="Den" width="100" height="71"></a>
+								<a href="images/bedroom.jpg"><img src="images/bedroom_thumb.jpg" alt="Bedroom" width="100" height="71"></a>
+								<a href="images/livingarea.jpg"><img src="images/livingarea_thumb.jpg" alt="Livingroom" width="100" height="71"></a>
+								<a href="images/bathroom.jpg"><img src="images/bathroom_thumb.jpg" alt="Bathroom" width="100" height="71"></a>
+							</figure>
+							
+				
+							<!--
+							<figcaption>
+								<ul>
+									<li><a href="realestate.shtml?vancouvermansion">House</a></li>
+									<li><a href="realestate.shtml?den">Den</a></li>
+									<li><a href="realestate.shtml?livingarea">Livingarea</a></li>
+									<li><a href="realestate.shtml?bedroom">Bedroom</a></li>
+									<li><a href="realestate.shtml?bathroom">Bathroom</a></li>
+								</ul>
+							-->
+							
+							
+							
+							</figcaption>
+						</figure>
+						
+						<p id="house-description">Cleanable 2 bedroom character home. Fantastic bargain with only some minor updates needed.  Features rooms, windows, a "roof", fully unfinished basement, and a car place in the back alley.  Great potential for future development.  Bathroom recently re-finished with wallpaper, and second bedroom updated into any WWE fan's dream.  Call before it's sold to an overseas investor!</p>
+						
+						<div class="container-info">
+							<h2>Essential Information</h2>
+								<ul>
+									<li><dl>
+										<dt>MLS #:</dt>
+											<dd>V123456</dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>Property Type:</dt>
+											<dd>Residential Detached</dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>Year Built:</dt>
+											<dd>1952</dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>Square Footage:</dt>
+											<dd>1,850</dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>Bedrooms:</dt>
+											<dd>3</dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>Bathrooms:</dt>
+											<dd>2</dd>
+									</dl></li>
+									
+								</ul>
+						</div>
+						
+						<div class="container-info">
+							<h2>Other Information</h2>
+								<ul>
+									
+									<li><dl>
+										<dt>Street Address:</dt>
+											<dd>1 Everyminute Road</dd>
+											<dd></dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>City:</dt>
+											<dd>Vancouver</dd>
+											<dd></dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>Yard Size:</dt>
+											<dd>0.001 Acres</dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>Heating:</dt>
+											<dd>Coal furnace</dd>
+									</dl></li>
+									
+									<li><dl>
+										<dt>Special Features:</dt>
+											<dd>Alley parking space</dd>
+											<dd>WWE fanroom</dd>
+											<dd>Explanded living area</dd>				
+									</dl></li>
+									
+								</ul>
+							
+						</div>
+						
+					</article>
+				
+				</section>
+				
+			</div>
+				<footer>
+					<!--#include file="footer.inc"-->
+				</footer>
+			</div>
+	</body>
+</html>
