@@ -84,12 +84,12 @@
 	
 							<h1><span id="price">$1,299,999</span> - 1 Everyminute St, Vancouver</h1>
 			
-							<img id="main-pic" alt="housepics" src="images/vancouvermansion.jpg" alt="Vancouver mansion">
+							<img id="main-pic" src="images/vancouvermansion.jpg" alt="Vancouver mansion">
 					
 							<figure id="gallery">
 							
 
-								<a href="images/vancouvermansion.jpg"><img alt="housepics" src="images/vancouvermansion_thumb.jpg" alt="Vancouver mansion" width="100" height="71"></a>
+								<a href="images/vancouvermansion.jpg"><img src="images/vancouvermansion_thumb.jpg" alt="Vancouver mansion" width="100" height="71"></a>
 								<a href="images/den.jpg"><img src="images/den_thumb.jpg" alt="Den" width="100" height="71"></a>
 								<a href="images/bedroom.jpg"><img src="images/bedroom_thumb.jpg" alt="Bedroom" width="100" height="71"></a>
 								<a href="images/livingarea.jpg"><img src="images/livingarea_thumb.jpg" alt="Livingroom" width="100" height="71"></a>
