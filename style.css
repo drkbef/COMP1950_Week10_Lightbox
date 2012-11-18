@@ -1,0 +1,443 @@
+﻿/********************************/
+/* Fonts						*/
+/********************************/
+
+
+@font-face {
+    font-family: bubblebo;
+    src: local(bubblebo), url('fonts/bubblebo.ttf') format('opentype');
+}
+
+
+/********************************/
+/* Universal Styles 			*/
+/********************************/
+
+
+html
+{
+	font-family: helvetica, arial, sans-serif;
+}
+
+body
+{
+	background: #FFF;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+/********************************/
+/* Nav Styles					*/
+/********************************/
+
+nav
+{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	background: url('images/navbackground.jpg');
+}
+
+nav > ul 
+{
+	width: 100%;
+	height: 50px;
+	list-style : none;
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+nav > ul > li
+{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	border: solid 1px;
+	width: 20%;
+}
+
+
+nav > ul > li > a
+{
+	/* Need height total of 50px
+	Total is 35px (height) + 13px (padding) + 2px (border) = 50px */
+	
+	color: black;
+	padding-top: 13px;
+	height: 35px;		
+	font-size: 120%;
+	font-style: bolder;
+	text-align: center;
+	display: block;
+}
+
+
+nav > ul > li > a:visited
+{
+	color: #6532FF;
+}
+
+nav > ul > li > a:hover 
+{
+	font-weight: bold;
+	color: black;
+	background:  #00BA3F;
+	text-decoration: none;
+}
+
+
+
+/********************************/
+/* Link Styles 					*/
+/********************************/
+
+a:hover
+{
+	color: cyan;
+}
+
+
+/********************************/
+/* Figure Styles 				*/
+/********************************/
+
+figure
+{
+
+	margin: 10px;
+	border: solid 2px;
+	border-radius: 15px;
+	text-align: center;
+
+}
+
+figure img
+{
+	padding: 5px;
+}
+
+figcaption > ul 
+{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	list-style: none;
+
+	
+}
+
+figcaption > ul > li
+{
+	margin: 0 20px;
+	float: left;
+
+}
+
+/********************************/
+/* Main Container Styles 		*/
+/********************************/
+
+#container-main
+{
+	width: 1000px;
+	margin: 10px auto;
+	background-color: #FFF;
+	border: solid 1px;
+}
+
+#container-left
+{
+	width: 70%;
+
+}
+
+#container-right 
+{
+	padding-top: 35px;
+	width: 30%;
+	float: right;
+
+}
+
+
+/********************************/
+/* Header Styles 				*/
+/********************************/
+
+
+#header-main
+{
+
+	height: 200px;
+	width: 998px;
+	margin: 0 auto;
+	background: url('images/header.jpg');
+	border: solid 1px;
+	font-family: bubblebo;
+	text-align: center;
+	
+}
+
+#header-main > h1
+{
+
+	padding: 10px 0 0 20px;
+	font-size: 350%;
+
+}
+
+#header-main > p
+{
+	padding: 0 0 0 20px;
+	font-size: 150%
+	
+}
+
+#header-welcome
+{
+	font-size: 110%;
+	font-style: italic;
+	text-align: center;
+	padding: 10px 30px;
+	
+}
+
+
+
+/********************************/
+/* Agent Info Container Styles 		*/
+/********************************/
+
+
+.container-agentinfo
+{
+	width: 90%;
+	float: left;
+	font-size: 80%;
+	margin: 0 0 0 10px;
+	border: solid 1px;
+	border-color: #CCCCCC;	
+	border-radius: 15px;
+	padding: 5px;
+}
+
+
+.container-agentinfo dl
+{
+	overflow: hidden;
+	margin: 0;
+	
+}
+.container-agentinfo dt
+{
+	width: 40%;
+	float: left;	
+}
+
+
+.container-agentinfo dd
+{
+	float: right;
+	width: 60%;
+	margin: 0;
+	padding: 0;
+}
+
+.container-agentinfo ul
+{
+	list-style : none;
+	margin: 0;
+	padding: 0;
+}
+
+.container-agentinfo li
+{
+	overflow: auto;
+	padding: 5px 0;
+	vertical-align: text-top;
+	border-top: solid 1px;
+	border-color: #CCCCCC;
+
+}
+
+/********************************/
+/* Info Container Styles 		*/
+/********************************/
+
+
+.container-info
+{
+	width: 45%;
+	float: left;
+	font-size: 80%;
+	margin: 10px;
+	border: solid 1px;
+	border-color: #CCCCCC;	
+	border-radius: 15px;
+	padding: 5px;
+}
+
+
+.container-info dl
+{
+	overflow: hidden;
+	margin: 0;
+	
+}
+.container-info dt
+{
+	width: 40%;
+	float: left;	
+}
+
+
+.container-info dd
+{
+	float: right;
+	width: 60%;
+	margin: 0;
+	padding: 0;
+}
+
+.container-info ul
+{
+	list-style : none;
+	margin: 0;
+	padding: 0;
+}
+
+.container-info li
+{
+	overflow: auto;
+	padding: 5px 0;
+	vertical-align: text-top;
+	border-top: solid 1px;
+	border-color: #CCCCCC;
+
+}
+
+/********************************/
+/* Footer Styles 				*/
+/********************************/
+
+footer
+{
+	
+	height: 100px;
+	width: 1000px;
+	margin: 0 auto;
+	background: #777;
+	margin-top: 300px;
+}
+
+footer p
+{	
+	text-align: center;
+	font-weight: bold;
+	font-size: 70%;
+	padding-left: 10px;
+}
+
+/********************************/
+/* Library Styles 				*/
+/********************************/
+
+#price
+{
+	color: green;
+	font-style: bold;	
+}
+
+#house-description
+{
+	margin: 20px 20px;
+}
+
+/********************************/
+/* Media Styles 				*/
+/********************************/
+
+
+@media handheld and (max-device-width: 1200px), screen and (max-width: 480px) {
+	.state:after {
+		content: "Under 480";
+	}
+		
+	img
+	{
+        width: 85%;   
+    }
+	
+	nav
+	{
+		width: 480px;
+	}
+
+	nav > ul 
+	{
+		width: 100%;
+	}
+
+	nav > ul > li
+	{
+		width: 19%;
+	}
+	
+	nav > ul > li > a
+	{	
+		font-size: 80%;
+	}
+
+	#container-main
+	{
+		width: 100%;
+		min-width: 320px;
+	}
+
+	#container-left
+	{	
+		width: 100%;
+		float: none;
+	}
+
+	#container-right 
+	{
+        float: none;
+		width: 80%;
+		margin: 0 auto;
+
+	}
+
+	#header-main
+	{
+		width: 100%;
+		min-width: 320px;
+	}
+    
+    .container-info
+	{
+		width: 40%;
+	}
+
+	.container-agentinfo
+	{
+		float: none;
+	}
+
+	footer
+	{
+	    margin-top: 350px; 
+		width: 100%;
+	}
+
+	footer p
+	{
+	    margin: 0;
+		font-size: 55%;
+	}
+}
